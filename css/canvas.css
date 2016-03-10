@@ -1,0 +1,40 @@
+html {
+	overflow: hidden;
+}
+
+#canvaspanel {
+	display: flex;
+	align-items: center;
+}
+
+#paint {
+	display: inline-block;
+	width: 90%;
+	outline: 1px black solid;
+}
+
+#btnset {
+	display: inline-block;
+	width: 9%;
+}
+
+#btnset * {
+	margin: 5px;
+}
+
+#colorpanel {
+	display: flex;
+	align-items: center;
+}
+
+#colorset {
+	display: inline-block;
+	width: 90%;
+}
+
+#colordisp {
+	display: inline-block;
+	width: 9%;
+	height: 50px;
+	background-color: black;
+}

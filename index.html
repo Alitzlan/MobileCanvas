@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+<title>Mobile Canvas</title>
+<link rel="stylesheet" href="jquery/jquery.mobile-1.4.5.min.css">
+<link rel="stylesheet" href="css/canvas.css">
+<script src="jquery/jquery-1.12.1.min.js"></script>
+<script src="jquery/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/canvas.js"></script>
+<script src="js/color.js"></script>
+<script src="js/page.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, userscalable=0">
+</head>
+<body>
+<p><b><em>Mobile Canvas</em></b></p>
+<div id="canvaspanel">
+<canvas id="paint" height="480">Canvas Interface</canvas>
+<div id="btnset" class="ctrlbtn">
+<a id="clearbtn" class="ui-btn ui-icon-delete ui-btn-icon-notext">clear</a>
+</div>
+</div>
+<div id="colorpanel">
+<div id="colorset">
+<input type="range" id="redslider" class="colorslider" value="0" min="0" max="255" step="1" data-highlight="true"/>
+<input type="range" id="greenslider" class="colorslider" value="0" min="0" max="255" step="1" data-highlight="true"/>
+<input type="range" id="blueslider" class="colorslider" value="0" min="0" max="255" step="1" data-highlight="true"/>
+</div>
+<div id="colordisp"></div>
+</div>
+<div id="brushset">
+<input type="range" id="sizeslider" value="1" min="1" max="10" step="1" data-highlight="true"/>
+</div>
+<div id="info"></div>
+</body>
